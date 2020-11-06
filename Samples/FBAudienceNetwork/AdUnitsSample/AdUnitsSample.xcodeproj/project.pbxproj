@@ -16,7 +16,6 @@
 		825B69E421400B0900C130F6 /* NativeBannerAdTemplateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 825B69E221400B0900C130F6 /* NativeBannerAdTemplateViewController.m */; };
 		825B76321FE00ED4002E9410 /* MediumRectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 825B76261FE00ED2002E9410 /* MediumRectViewController.m */; };
 		825B76331FE00ED4002E9410 /* RewardedVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 825B762A1FE00ED3002E9410 /* RewardedVideoViewController.m */; };
-		825B76341FE00ED4002E9410 /* InstreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 825B762B1FE00ED3002E9410 /* InstreamViewController.m */; };
 		825B76351FE00ED4002E9410 /* InterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 825B762D1FE00ED3002E9410 /* InterstitialViewController.m */; };
 		825B76361FE00ED4002E9410 /* BannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 825B762E1FE00ED3002E9410 /* BannerViewController.m */; };
 		825B76371FE00ED4002E9410 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 825B762F1FE00ED4002E9410 /* MenuTableViewController.m */; };
@@ -69,8 +68,6 @@
 		825B76281FE00ED2002E9410 /* BannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerViewController.h; sourceTree = "<group>"; };
 		825B76291FE00ED2002E9410 /* RewardedVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RewardedVideoViewController.h; sourceTree = "<group>"; };
 		825B762A1FE00ED3002E9410 /* RewardedVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RewardedVideoViewController.m; sourceTree = "<group>"; };
-		825B762B1FE00ED3002E9410 /* InstreamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstreamViewController.m; sourceTree = "<group>"; };
-		825B762C1FE00ED3002E9410 /* InstreamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstreamViewController.h; sourceTree = "<group>"; };
 		825B762D1FE00ED3002E9410 /* InterstitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterstitialViewController.m; sourceTree = "<group>"; };
 		825B762E1FE00ED3002E9410 /* BannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerViewController.m; sourceTree = "<group>"; };
 		825B762F1FE00ED4002E9410 /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
@@ -213,8 +210,6 @@
 				825B762E1FE00ED3002E9410 /* BannerViewController.m */,
 				9CF70F38207E0C6D002D30D2 /* NativeBannerViewController.h */,
 				9CF70F39207E0C6D002D30D2 /* NativeBannerViewController.m */,
-				825B762C1FE00ED3002E9410 /* InstreamViewController.h */,
-				825B762B1FE00ED3002E9410 /* InstreamViewController.m */,
 				825B76271FE00ED2002E9410 /* InterstitialViewController.h */,
 				825B762D1FE00ED3002E9410 /* InterstitialViewController.m */,
 				825B76301FE00ED4002E9410 /* MediumRectViewController.h */,
@@ -326,7 +321,6 @@
 				825B76321FE00ED4002E9410 /* MediumRectViewController.m in Sources */,
 				EE23E6E8198B0B0600215C81 /* TableViewController.m in Sources */,
 				825B76371FE00ED4002E9410 /* MenuTableViewController.m in Sources */,
-				825B76341FE00ED4002E9410 /* InstreamViewController.m in Sources */,
 				9CF70F3A207E0C6D002D30D2 /* NativeBannerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

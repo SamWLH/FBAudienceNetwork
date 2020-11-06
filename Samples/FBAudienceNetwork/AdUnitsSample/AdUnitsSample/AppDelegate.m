@@ -18,7 +18,7 @@
 
 #import "AppDelegate.h"
 
-#import <FBAudienceNetwork/FBAudienceNetworkAds.h>
+#import <FBAudienceNetwork/FBAudienceNetwork.h>
 
 @implementation AppDelegate
 
@@ -30,6 +30,10 @@ void installUncaughtExceptionHandler(void);
     installUncaughtExceptionHandler();
 
     [FBAudienceNetworkAds initializeWithSettings:nil completionHandler:nil];
+
+    /* Pass user's consent after acquiring it. For sample app purposes, this is set to YES.
+     */
+    [FBAdSettings setAdvertiserTrackingEnabled:YES];
 
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.viewController = [[UIStoryboard storyboardWithName:@"AdUnitsSampleStoryboard" bundle:nil] instantiateInitialViewController];

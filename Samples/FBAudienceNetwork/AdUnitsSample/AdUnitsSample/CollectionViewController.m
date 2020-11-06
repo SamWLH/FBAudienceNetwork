@@ -36,7 +36,6 @@ static NSString *const kDefaultCellIdentifier = @"kDefaultCellIdentifier";
     self = [super initWithFrame:frame];
     if (self) {
         UILabel *label = [UILabel new];
-        label.textColor = [UIColor blackColor];
         label.numberOfLines = 2;
         self.textLabel = label;
         [self.contentView addSubview:label];
